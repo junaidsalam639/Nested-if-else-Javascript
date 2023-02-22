@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+     <script>
+        var fruitvege =prompt ("enter your fruit and vegetable")
+        if (fruitvege == "fruit") {
+            var multiple = prompt("apple , banana , papita , orange.")
+            if (multiple == "apple" || multiple == "papita" || multiple == "banana" || multiple == "orange") {
+              var order =prompt("ORDER " + multiple + ": How many kilos of tea do you need? 1 kg 2 kg 3 kg 4 kg 5 kg")
+              if(order == "1kg" ||order == "2kg" ||order == "3kg" ||order == "4kg" ||order == "5kg"){
+                  var city =prompt("ORDER NOW " + multiple + " " + order + ": Enter your City name : karachi or lahore or peshwar or Queeta")
+                  if(city == "karachi" ||city == "lahore" ||"peshwar" ||"Queeta"){
+                var phone =prompt("please share " + multiple  + " "+ order + " "+ city +": "+ "contact us 033310");{
+                    alert("Thank You your buing the " + multiple)
+                }
+                  }
+              }
+            }
+        }
+         else if (fruitvege == "vegetable") {
+            var multiplevege = prompt("finger , potato , tomato , onion.")
+            if (multiplevege == "finger" || multiplevege == "potato" || multiplevege == "tomato" || multiplevege == "onion") {
+              var order =prompt("ORDER " + multiplevege + ": How many kilos of tea do you need? 1 kg 2 kg 3 kg 4 kg 5 kg")
+              if(order == "1kg" ||order == "2kg" ||order == "3kg" ||order == "4kg" ||order == "5kg"){
+                  var city =prompt("ORDER NOW " + multiplevege + " " + order + ": Enter your City name : karachi or lahore or peshwar or Queeta")
+                  if(city == "karachi" ||city == "lahore" ||"peshwar" ||"Queeta"){
+                var phone =prompt("please share " + multiplevege  + " "+ order + " "+ city +": "+ "contact us 0333");
+                {
+                    alert("Thank You your buing the " + multiplevege)
+                }
+                  }
+              }
+            }
+        }else{
+            alert("Name it wrong sir")
+        }
+        </script>
+</body>
+</html>
